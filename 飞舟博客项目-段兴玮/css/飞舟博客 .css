@@ -1,0 +1,864 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			header{
+				height: 150px;
+				background: lightseagreen;
+				text-align: center;
+				line-height: 150px;
+			}
+			
+			.span1{
+				color: white;
+				font-size: 50px;
+			}
+			.span2{
+				color: white;
+				font-size: 20px;
+				font-weight: 200px;
+			}
+			.span3>a{
+				color: lightseagreen;
+			}
+			nav{
+				height: 50px;
+				line-height: 50px;
+				background: darkslategrey;
+				
+			}
+			.div-nav>div{
+				height: 50px;
+				width: 120px;
+				line-height: 50px;
+				text-align: center;
+				color: ghostwhite;
+			}
+			.div-shouye{
+				float: left;
+				background: lightseagreen;
+			}
+			.div-zixun{
+				float: left;
+				
+			}
+			.div-webqianduan{
+				float: left;
+				
+			}
+			.div-office{
+				float: left;
+			
+			}
+			.div-jisuanji{
+				float: left;
+				
+			}
+			.div-ziyuan{
+				float:left;
+				
+			}
+			.div-qita{
+				float: left;
+				background: lightseagreen;
+			}
+			.div-sousuo{
+				float: right;
+				background: lightseagreen;
+			}
+			.div-nav2{
+				height: 50px;
+			}
+			.div-feizhou{
+				width: 480px;
+				height: 50px;
+				background: url(../img/laba.jpg);
+				background-repeat: no-repeat;
+				line-height: 50px;
+				color: darkslategrey;
+				float: left;
+				position: relative;
+				left: 30px;
+			}
+			.div-denglu{
+				width: 70px;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				float: right;
+			}
+			.div-zixun:hover{
+				background: lightseagreen;
+			}
+			.div-webqianduan:hover{
+				background: lightseagreen;
+			}
+			.div-office:hover{
+				background: lightseagreen;
+			}
+			.div-jisuanji:hover{
+				background: lightseagreen;
+			}
+			.div-ziyuan:hover{
+				background: lightseagreen;
+			}
+			.div-nav2>a{
+				color: lightseagreen;
+			}
+			main{
+				height: 2850px;
+				background: white;
+			}
+			.div-footer{
+				height: 60px;
+				line-height: 60px;
+				text-align: center;
+				background: dimgray;
+				color: gainsboro;
+			}
+			a{
+				text-decoration: none;
+				color: gainsboro;
+			}
+			p>a{
+				color: lightseagreen;
+				font-size: 18px;
+			}
+			.div-ziy{
+				width: 100px;
+				height: 250px;
+				background: lightseagreen;
+				text-align: center;
+				display: none;
+			}
+			.div-ziyuan:hover .div-ziy{
+				display: block;
+			}
+			
+			.wzmb:hover{
+				background: darkslategray;}
+			.wycj:hover{
+				background: darkslategray;}
+			.tptb:hover{
+				background: darkslategray;}
+			.rj:hover{
+				background: darkslategray;}
+			.qt:hover{
+				background: darkslategray;}
+				
+			.div-qit{
+				width: 100px;
+				height: 250px;
+				background: lightseagreen;
+				text-align: center;
+				display: none;
+			}
+			.div-qita:hover .div-qit{
+				display: block;
+			}
+			.wzcd:hover{
+				background: darkslategray;}
+			.bqy:hover{
+				background: darkslategray;}
+			.tg:hover{
+				background: darkslategray;}
+			.lyb:hover{
+				background: darkslategray;}
+			.yqlj:hover{
+				background: darkslategray;}
+			
+			.div-donghua{
+				width: 550px;
+				height: 200px;
+				margin-left: 10px;
+				overflow: hidden;
+			}
+			.div-donghua0{
+				width: 2200px;
+				height: 200px;
+				animation:donghua 6s linear infinite ;
+			}
+			.div-donghua1{
+				width: 550px;
+				height: 200px;
+				background: url(../img/未标题-1.jpg);
+				background-size: cover;
+				color: white;
+				float: left;
+			}
+			.div-donghua2{
+				width: 550px;
+				height: 200px;
+				background: url(../img/1.jpg);
+				background-size: cover;
+				color: white;
+				float: left;
+			}
+			.div-donghua3{
+				width: 550px;
+				height: 200px;
+				background: url(img/10518975_141254706880_2.jpg);
+				background-size: cover;
+				color: white;
+				float: left;
+			}
+			.div-donghua4{
+				width: 550px;
+				height: 200px;
+				background: url(../img/4.jpg);
+				background-size: cover;
+				color: white;
+				float: left;
+			}
+			@keyframes donghua{
+				from{transform: translateX(0px);}
+				to{transform: translateX(-1050px);}
+			}
+			.div-donghua11{
+				padding-left: 40px;
+				padding-top:150px ;
+			}
+			.div-donghua22{
+				padding-left: 40px;
+				padding-top:150px ;
+			}
+			.div-donghua33{
+				padding-left: 40px;
+				padding-top:150px ;
+			}
+			.div-donghua44{
+				padding-left: 40px;
+				padding-top:150px ;
+			}
+			.div-web{
+				width:600px;
+				height: 350px;
+			}
+			.div-web1{
+				width: 70px;
+				height:20px ;
+				line-height: 20px;
+				background: indianred;
+				color: white;
+				margin-left:10px ;
+				margin-top: 10px;
+				text-align: center;
+				font-family: "宋体";
+				padding-right: 20px;
+				float: left;
+			}
+			.div-web2{
+				width: 130px;
+				height:40px ;
+				line-height: 40px;
+				color: lightseagreen;
+				font-size:20px ;
+				font-family: "黑体";
+				float: left;
+			}
+			.div-web3{
+				width:220px ;
+				height:130px ;
+				background: url(../img/222.jpg);
+				background-size: cover;
+				position: relative;
+				left: 10px;
+				top: 40px;
+				
+			}
+			.div-web4{
+				width: 300px;
+				height: 130px;
+				float: right;
+				position: relative;
+				top: -90px;
+				left: -40px;
+			}
+			
+			.div-of{
+				width:600px;
+				height: 200px;
+			}
+			
+			.div-of1{
+				width: 50px;
+				height:20px ;
+				border: 1px solid black;
+				line-height: 20px;
+				background: indianred;
+				color: white;
+				margin-left:10px ;
+				margin-top: -80px;
+				text-align: center;
+				font-family: "宋体";
+				padding-right:1px;
+				float: left;
+			}
+			.div-of2{
+				width: 500px;
+				height:40px ;
+				line-height: 40px;
+				color: lightseagreen;
+				font-size:20px ;
+				position: relative;
+				left:80px ;
+				top: -90px;
+				font-family: "黑体";
+				float: left;
+			}
+			.div-of3{
+				width:220px ;
+				height:180px ;
+				background: url(../img/aa.jpg);
+				background-size: cover;
+				position: relative;
+				left: 10px;
+				top: -10px;
+				
+			}
+			.div-of4{
+				width: 300px;
+				height: 130px;
+				float: right;
+				position: relative;
+				top: -200px;
+				left: -40px;
+			}
+			.div-tu{
+				width:600px;
+				height: 200px;
+			}
+			.div-tu1{
+				width: 70px;
+				height:20px ;
+				line-height: 20px;
+				background: indianred;
+				color: white;
+				margin-left:10px ;
+				margin-top: 10px;
+				text-align: center;
+				font-family: "宋体";
+				padding-right: 10px;
+				float: left;
+			}
+			.div-tu2{
+				width: 400px;
+				height:40px ;
+				line-height: 40px;
+				color: lightseagreen;
+				font-size:20px ;
+				position: relative;
+				left: 140px;
+				top:-110px;
+				font-family: "黑体";
+				float: left;
+			}
+			.div-tu3{
+				width:220px ;
+				height:130px ;
+				background:url(../img/bb.jpg);
+				background-size: cover;
+				position: relative;
+				left: 10px;
+				top: 50px;
+				
+			}
+			.div-tu4{
+				width: 300px;
+				height: 130px;
+				float: right;
+				position: relative;
+				top: -100px;
+				left: -40px;
+			}
+			.div-off{
+				width:600px;
+				height: 250px;
+			}
+			.div-off1{
+				width: 50px;
+				height:20px ;
+				line-height: 20px;
+				background: indianred;
+				color: white;
+				margin-left:10px ;
+				margin-top: 10px;
+				text-align: center;
+				font-family: "宋体";
+				padding-right: 10px;
+				float: left;
+			}
+			.div-off2{
+				width: 400px;
+				height:40px ;
+				line-height: 40px;
+				color: lightseagreen;
+				font-size:20px ;
+				position: relative;
+				left: 100px;
+				top:-80px ;
+				font-family: "黑体";
+				float: left;
+			}
+			.div-off3{
+				width:220px ;
+				height:130px ;
+				background:url(../img/cc.jpg);
+				background-size: cover;
+				position: relative;
+				left: 10px;
+				top: 40px;
+				
+			}
+			.div-off4{
+				width: 300px;
+				height: 130px;
+				float: right;
+				position: relative;
+				top: -90px;
+				left: -40px;
+			}
+			.div-jisuan{
+				width:600px;
+				height: 200px;
+			}
+			.div-jisuan1{
+				width: 50px;
+				height:20px ;
+				line-height: 20px;
+				background: indianred;
+				color: white;
+				margin-left:10px ;
+				margin-top: 20px;
+				text-align: center;
+				font-family: "宋体";
+				padding-right: 10px;
+				float: left;
+			}
+			.div-jisuan2{
+				width: 300px;
+				height:40px ;
+				line-height: 40px;
+				color: lightseagreen;
+				font-size:20px ;
+				font-family: "黑体";
+				float: left;
+				position: relative;
+				left: 20px;
+			}
+			.div-jisuan3{
+				width:220px ;
+				height:130px ;
+				background: url(../img/dd.jpg);
+				background-size: cover;
+				position: relative;
+				left: 10px;
+				top: 60px;
+				
+			}
+			.div-jisuan4{
+				width: 300px;
+				height: 130px;
+				float: right;
+				position: relative;
+				top: -70px;
+				left: -40px;
+			}
+			.div-offa{
+				width:600px;
+				height: 350px;
+			}
+			.div-offa1{
+				width: 50px;
+				height:20px ;
+				line-height: 20px;
+				background: indianred;
+				color: white;
+				margin-left:10px ;
+				margin-top: 50px;
+				text-align: center;
+				font-family: "宋体";
+				padding-right: 20px;
+				float: left;
+			}
+			.div-offa2{
+				width: 500px;
+				height:40px ;
+				line-height: 40px;
+				color: lightseagreen;
+				font-size:20px ;
+				position: relative;
+				top:-20px;
+				left: 10px;
+				font-family: "黑体";
+				float: left;
+			}
+			.div-offa3{
+				width:220px ;
+				height:180px ;
+				background: url(../img/ee.jpg);
+				background-size: cover;
+				position: relative;
+				left: 10px;
+				top: 80px;
+				
+			}
+			.div-offa4{
+				width: 300px;
+				height: 130px;
+				float: right;
+				position: relative;
+				top: -90px;
+				left: -40px;
+			}
+			.div-qita5{
+				width:600px;
+				height: 200px;
+			}
+			.div-qita51{
+				width: 50px;
+				height:20px ;
+				line-height: 20px;
+				background: indianred;
+				color: white;
+				margin-left:10px ;
+				margin-top: 10px;
+				text-align: center;
+				font-family: "宋体";
+				padding-right: 20px;
+				float: left;
+			}
+			.div-qita52{
+				width: 300px;
+				height:40px ;
+				line-height: 40px;
+				color: lightseagreen;
+				font-size:20px ;
+				position: relative;
+				left: 20px;
+				font-family: "黑体";
+				float: left;
+			}
+			.div-qita53{
+				width:220px ;
+				height:130px ;
+				background: url(../img/ff.jpg);
+				background-size: cover;
+				position: relative;
+				left: 10px;
+				top: 40px;
+				
+			}
+			.div-qita54{
+				width: 300px;
+				height: 130px;
+				float: right;
+				position: relative;
+				top: -90px;
+				left: -40px;
+			}
+			.div-offb{
+				width:600px;
+				height: 200px;
+			}
+			.div-offb1{
+				width: 70px;
+				height:20px ;
+				line-height: 20px;
+				background: indianred;
+				color: white;
+				margin-left:10px ;
+				margin-top: 30px;
+				text-align: center;
+				font-family: "宋体";
+				padding-right: 20px;
+				float: left;
+			}
+			.div-offb2{
+				width: 300px;
+				height:40px ;
+				line-height: 40px;
+				color: lightseagreen;
+				font-size:20px ;
+				position: relative;
+				left: 130px;
+				top: -30px;
+				font-family: "黑体";
+				float: left;
+			}
+			.div-offb3{
+				width:220px ;
+				height:130px ;
+				background: url(../img/hh.jpg);
+				background-size: cover;
+				position: relative;
+				left: 10px;
+				top: 70px;
+				
+			}
+			.div-offb4{
+				width: 300px;
+				height: 130px;
+				float: right;
+				position: relative;
+				top: -70px;
+				left: -40px;
+			}
+			.div-tutu{
+				width:600px;
+				height: 300px;
+			}
+			.div-tutu1{
+				width: 70px;
+				height:20px ;
+				line-height: 20px;
+				background: indianred;
+				color: white;
+				margin-left:10px ;
+				margin-top: 70px;
+				text-align: center;
+				font-family: "宋体";
+				padding-right: 10px;
+				float: left;
+			}
+			.div-tutu2{
+				width: 300px;
+				height:40px ;
+				line-height: 40px;
+				color: lightseagreen;
+				font-size:20px ;
+				position: relative;
+				left: 20px;
+				font-family: "黑体";
+				float: left;
+			}
+			.div-tutu3{
+				width:220px ;
+				height:130px ;
+				background: url(../img/ii.jpg);
+				background-size: cover;
+				position: relative;
+				left: 10px;
+				top: 110px;
+				
+			}
+			.div-tutu4{
+				width: 300px;
+				height: 130px;
+				float: right;
+				position: relative;
+				top: -30px;
+				left: -40px;
+			}
+			.div-offc{
+				width:600px;
+				height: 300px;
+			}
+			.div-offc1{
+				width: 50px;
+				height:20px ;
+				line-height: 20px;
+				background: indianred;
+				color: white;
+				margin-left:10px ;
+				margin-top: 10px;
+				text-align: center;
+				font-family: "宋体";
+				padding-right: 20px;
+				float: left;
+			}
+			.div-offc2{
+				width: 300px;
+				height:40px ;
+				line-height: 40px;
+				color: lightseagreen;
+				font-size:20px ;
+				position: relative;
+				left: 20px;
+				font-family: "黑体";
+				float: left;
+			}
+			.div-offc3{
+				width:220px ;
+				height:130px ;
+				background: url(../img/jj.jpg);
+				background-size: cover;
+				position: relative;
+				left: 10px;
+				top: 50px;
+				
+			}
+			.div-offc4{
+				width: 300px;
+				height: 130px;
+				float: right;
+				position: relative;
+				top: -90px;
+				left: -40px;
+			}
+			.div-left{
+				width: 60%;
+				float: left;
+				margin-left: 10px;
+			}
+			.div-right{
+				width: 38%;
+				height: 2830px;
+				float: right;
+				margin-right: 10px;
+			}
+			.div-page{
+				width: 60%;
+				height: 80px;
+				margin-left: 60px;
+				text-align: center;
+				line-height: 80px;
+			}
+			.div-page>div{
+				width: 50px;
+				height: 50px;
+				line-height: 50px;
+				margin-right: 10px;
+				background: darkgrey;
+				float: left;
+			}
+			.div-page1{
+				margin-left: 60px;
+			}
+			.div-page1:hover{
+				background: lightseagreen;
+			}
+			.div-page2:hover{
+				background: lightseagreen;
+			}
+			.div-page3:hover{
+				background: lightseagreen;
+			}
+			.div-page4:hover{
+				background: lightseagreen;
+			}
+			.div-page5:hover{
+				background: lightseagreen;
+			}
+			.div-pagenext:hover{
+				background: lightseagreen;
+			}
+			.div-right1{
+				width: 90%;
+				height:80px;
+				line-height: 80px;
+			}
+			.div-right1>div{
+				width: 60px;
+				height: 60px;
+				float: left;
+				margin-right: 10px;
+			}
+			.div-right1wb{
+				background: palevioletred;
+			}
+			.div-right1hh{
+				background: mediumseagreen;
+			}
+			.div-right1wx{
+				background: lightseagreen;
+			}
+			.div-right1yx{
+				background: hotpink;
+			}
+			.div-right1qq{
+				background: red;
+			}
+			.div-right1xh{
+				background: orangered;
+			}
+			.div-right2{
+				width: 90%;
+				height:150px;
+				
+			}
+			.div-yxmr{
+				width: 280px;
+				height: 30px;
+				float: left;
+				margin-left: 5px;
+				color: white;
+				width: 100px;
+			}
+			.div-dingyue{
+				width: 100px;
+				height: 30px;
+				line-height: 30px;
+				color: white;
+				margin-left: 40px;
+				float: left;
+				background: lightseagreen;
+				text-align: center;
+			}
+			.div-right3{
+				width: 90%;
+				height:150px;
+			}
+			.div-right4{
+				width: 90%;
+				height:280px;
+			}
+			.div-bqyl{
+				width: 180px;
+				height: 210px;
+				float: left;
+				margin-right: 10px;
+			}
+			.div-bqyl>div{
+				width: 180px;
+				height: 30px;
+				padding-top: 8px;
+				margin-top: 5px;
+			}
+			.div-bqyr{
+				width: 180px;
+				height: 210px;
+				float: left;
+			}
+			.div-bqyr>div{
+				width: 180px;
+				height: 30px;
+				margin-top: 5px;
+				padding-top: 8px;
+			}
+			
+			.div-right5{
+				width: 90%;
+				height:280px;
+			}
+			.div-right6{
+				width: 90%;
+				height:600px;
+			}
+			.div-right7{
+				width: 90%;
+				height:80px;
+			}
+			.div-right8{
+				width: 90%;
+				height:150px;
+			}
+			.div-tucao1{
+				width: 60px;
+				height: 60px;
+				line-height: 60px;
+				background:url(../img/ren.png);
+				background-size:cover;
+				float: left;
+				margin-top: 20px;
+				
+			}
+			.div-tucao2{
+				width: 300px;
+				height: 60px;
+				line-height: 60px;
+				margin-left: 10px;
+				margin-top: 20px;
+				background: lightgray;
+				float: left;
+			}
